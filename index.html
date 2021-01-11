@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/estilo.css" />
+    <title>Jogo Da Velha</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-4">Jogo da Velha</h1>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn1"
+            data-bt="btn1"
+          ></button>
+        </div>
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn2"
+            data-bt="btn2"
+          ></button>
+        </div>
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn3"
+            data-bt="btn3"
+          ></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn4"
+            data-bt="btn1"
+          ></button>
+        </div>
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn5"
+            data-bt="btn2"
+          ></button>
+        </div>
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn6"
+            data-bt="btn3"
+          ></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn7"
+            data-bt="btn1"
+          ></button>
+        </div>
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn8"
+            data-bt="btn2"
+          ></button>
+        </div>
+        <div class="col-sm-4">
+          <button
+            class="btn btn-primary botao"
+            id="btn9"
+            data-bt="btn3"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center; font-size:large; color:brown;" data-js="caixa"></p>
+    <hr />
+    <p style="text-align: center">
+      Desenvolvido por Maromo - 2021 |
+      <a href="" data-js="sobre">Sobre o jogo</a>
+    </p>
+    <script crossorigin="anonymous" src="./js/sobre.js"></script>
+    <script crossorigin="anonymous" src="./js/jogar.js"></script>
+    <script crossorigin="anonymous" src="./js/fechar.js"></script>
+  </body>
+</html>

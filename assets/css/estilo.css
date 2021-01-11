@@ -1,0 +1,9 @@
+.botao {
+    display: block;
+    margin: 10px auto;
+    min-width: 60px;
+    min-height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
